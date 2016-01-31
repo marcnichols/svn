@@ -80,6 +80,7 @@ What is a typical svn workﬂow?
 14 What were they thinking?!
 
 What was the design criteria for svn?
+Centralized - Keep important stuff on the Server.
 
 15 Time machine
 
