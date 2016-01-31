@@ -38,6 +38,9 @@ D         study
 6 It’s like a tree
 
 How are branches handled in svn?
+Each project directory has subdirectories named trunk and branches. To create a brnach, you make a copy
+of your project tree in the repository using svn copy.
+Reality is that svn has no real concept of a branch, it only knows how to make copies. Its branches exist as normal filesystem directories in the repo.
 
 7 or maybe a forest
 
