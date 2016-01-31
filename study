@@ -107,10 +107,10 @@ This indeed does create the .svn
 18 Local SVN
 
 Can the client/server setup required with svn exist on the same computer?
-Yes. on the server side use svnadmin commands and on the client side use svn commands
 When you're doing it this way, you have to remember the 3 forward slashes, the 3rd forward slash 
 tells svn the server is local. ex: file:///home/mnihcols/svnrepositoryname/
 
 19 For the admins
 
 Did SVN provide any diﬀerence in tools between how you do server side commands and client side commands? 
+Yes. on the server side use svnadmin commands and on the client side use svn commands
