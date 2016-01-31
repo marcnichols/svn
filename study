@@ -70,6 +70,12 @@ Why was svn created? So that the world would have a centralized version control 
 13 A day in the life of svn
  
 What is a typical svn workﬂow?
+1) update your working copy: svn update
+2) make your changes: svn add, svn dlete, svn copy and svn move
+3) review your changes: svn status, svn diff
+4) Fix you mistakes: svn revert
+5) Resolve any conflicts: svn update, svn resolve
+6) Publish (commit) your changes: svn commit
 
 14 What were they thinking?!
 
