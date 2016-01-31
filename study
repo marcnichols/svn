@@ -44,7 +44,7 @@ Reality is that svn has no real concept of a branch, it only knows how to make c
 
 7 or maybe a forest
 
-How many branches can you have at any given time?
+How many branches can you have at any given time? There is one main branch, but you can checkout as many branches as you deem necessary.
 
 8 Working copy
 
