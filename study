@@ -61,7 +61,7 @@ Until you do a --reintegrate merge from branch to trunk.
 
 11 Taping it together
 
-How do you merge branches?
+How do you merge branches? invoke the svn merge command. To synchronize branches run sync merge.
 
 12 We see a need!
 
