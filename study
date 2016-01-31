@@ -20,6 +20,11 @@ Do a svn checkout //http.......  or just do a svn co //http:.....
 4 Bring me my .svn!
 
 How do you create the local working environment with svn (the .svn directory)?
+Simply by doing a check out, but let me elaborate: you must do a co with a depth of "empty" like this:
+mnichols@LTS:~/svn$ svn co --depth empty https://github.com/marcnichols/svn .
+and the response will be: Checked out revision 0.   and you'll now have your .svn 
+
+
 
 5 Adding to the chaos
 
