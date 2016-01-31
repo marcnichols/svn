@@ -84,7 +84,10 @@ Centralized - Keep important stuff on the Server.
 
 15 Time machine
 
-How do we view the past of a project with svn?
+How do we view the past of a project with svn? 
+svn log
+...or you can run a svn diff like if svn log gave you a revision number, just say it was 5, you would do a svn diff -r5
+
  
 16 Great Scott!
 
