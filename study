@@ -15,6 +15,7 @@ Do a snv commit -m "notes..notes.."  Svn commit sends all changes to the repo. E
 3 Checking out svn
 
 How are check outs performed in svn?
+Do a svn checkout //http.......  or just do a svn co //http:.....
 
 4 Bring me my .svn!
 
