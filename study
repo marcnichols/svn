@@ -10,6 +10,7 @@ Git is a decentralized versioning system while Svn is centralized. Git merging i
 2 Commiting to svn
 
 How are commits handled in svn?
+Do a snv commit -m "notes..notes.."  Svn commit sends all changes to the repo. Each commit creates a new state of the filesystem tree (called a revision) in the repo.
 
 3 Checking out svn
 
