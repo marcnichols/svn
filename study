@@ -92,6 +92,7 @@ svn log
 16 Great Scott!
 
 If there was a mistake made in the past of a project, how should we go about correcting that mistake in svn?
+use svn revert, but you really shouldn't mess with the past because it can make for an unpredictable present.
 
 17 The initial upload
 
