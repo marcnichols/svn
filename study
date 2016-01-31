@@ -97,6 +97,12 @@ use svn revert, but you really shouldn't mess with the past because it can make 
 17 The initial upload
 
 If you have an existing project and want to start tracking it with svn, how do you copy your existing ﬁles to the repository the ﬁrst time? Does this create the .svn directory in your local folder?
+Well, you initially have to to a checkout, but it has to be like this:
+ svn co --depth empty https://github.com/marcnichols/svn .
+Remember the bash shortcut . 
+This indeed does create the .svn
+...or you can do svn import . file:///home/mnihcols/svnrepositoryname/foldername -m "import notes"
+
 
 18 Local SVN
 
