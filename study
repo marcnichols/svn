@@ -65,7 +65,7 @@ How do you merge branches? invoke the svn merge command. To synchronize branches
 
 12 We see a need!
 
-Why was svn created?
+Why was svn created? So that the world would have a centralized version control system that was opensource.
 
 13 A day in the life of svn
  
