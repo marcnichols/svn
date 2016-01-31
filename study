@@ -29,6 +29,11 @@ and the response will be: Checked out revision 0.   and you'll now have your .sv
 5 Adding to the chaos
 
 How do you add ﬁles to the repository?
+The book says to do an import then to a co. I did an svn mv *.* to the trunk like this:
+mnichols@LTS:~/svn$ svn mv *.* trunk/
+A         trunk/study
+D         study
+
 
 6 It’s like a tree
 
